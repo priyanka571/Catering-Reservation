@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amrit Tulya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+</head>
+<style>
+    body{
+        background-color: beige;
+    }
+    .ser{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 60px 20px 0px 0px;
+    }
+    .ser p{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+        background-color: lightpink;
+        height: 40px;
+        font-weight: bold;
+    }
+    .ser p:hover{
+        background-color: white;
+    }
+    .b1{
+        font-size: xx-large;
+    font-family: "Tangerine", cursive;
+    color: #f65a5a;
+    -webkit-text-stroke: 1px #f5821f;
+    text-shadow: 1px 2px 3px #888;
+    letter-spacing: 0.5px;
+
+    }
+    .b2{
+        font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    text-shadow: 1px 2px 3px #888;
+    letter-spacing: 0.5px;
+    text-align: center;
+    }
+</style>
+
+<body>
+    <script>
+        $(document).ready(function () {
+            $("#header").load('headerfile.html');
+        })
+    </script>
+    <div class="container">
+        <header>
+            <div id="header"> </div>
+
+        </header>
+        <main>
+            <h1 class="b1">OUR SERVICES</h1>
+            <h2 class="b2">"We Tried for Your Benefit"</h2>
+            <div class="ser">
+                <div class="serBox1">
+                    <img src="./images/marriagec.jpg" alt="" width="300px" height="400px">
+                    <p>Marriage</p><br><br>
+                </div>
+                <div class="serBox2">
+                    <img src="./images/engagement.jpg" alt="" width="300px" height="400px">
+                    <p>Engagement</p>
+                </div>
+                <div class="serBox3">
+                    <img src="./images/catering package.jpg" alt="" width="300px" height="400px">
+                    <p>Catering</p>
+                </div>
+                <div class="serBox4">
+                    <img src="./images/food event.jpg" alt="" width="300px" height="400px">
+                    <p>Food Events</p>
+                </div>
+                <div class="serBox5">
+                    <img src="./images/holi.jpg" alt="" width="300px" height="400px">
+                    <p>Festivals</p><br><br>
+                </div>
+                <div class="serBox6">
+                    <img src="./images/bday.jpg" alt="" width="300px" height="400px">
+                    <p>Birthday Parties</p>
+                </div>
+                <div class="serBox">
+                    <img src="./images/social.jpg" alt="" width="300px" height="400px">
+                    <p>Social Events</p>
+                </div>
+               
+
+            </div>
+
+        </main>
+        <footer>
+            <div class="footer">
+                <p>Amrit Tulya Catering&copy All rights reserved</p>
+              </div>
+            
+        </footer>
+    </div>
+
+
+</body>

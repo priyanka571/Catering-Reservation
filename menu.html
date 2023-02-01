@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amrit Tulya</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="slider.css"> -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+</head>
+<style>
+  .m1{
+    background-color: lightpink;
+    background-size: 100%;
+   
+  }
+  .me3,.me2,.me1,.me4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+  
+  .me1,.me2,.me3,.me4{
+    background-color: beige;
+    height: 200px;
+    margin: 0px 10px 10px 10px;
+    border-radius: 10px;
+  }
+  .me1 p,.me3 p{
+    padding-top: 54px;
+    
+    font-size: 3em;
+    height: 50px;
+    width: 100px;
+    
+  }
+  .me2 p,.me4 p{
+   
+    padding-top: 54px;
+    font-size: 3em;
+  }
+  
+  
+  .me1 img,.me2 img, .me3 img,.me4 img {
+ 
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+.me1 img:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+.me2 img:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+.me3 img:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+.me4 img:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+  
+  
+</style>
+
+<body>
+  <script>
+    $(document).ready(function(){
+      $("#header").load('headerfile.html');
+    })
+  </script>
+  <div class="container">
+    <header>
+      <div id="header"> </div>
+      
+    </header>
+    <main>
+      <div class="m1">
+        <div class="me1">
+          <p><a href=""> Starter</a></p>
+          <img src="./images/s1.jpg" alt="" width="200px" height="200px">
+          <img src="./images/s2.jpg" alt="" width="200px" height="200px">
+          <img src="./images/s3.jpg" alt="" width="200px" height="200px">
+          
+
+        </div>
+        <div class="me2">
+          
+          <img src="./images/f1.jpg" alt="" width="200px" height="200px">
+          <img src="./images/mc1.jpg" alt="" width="200px" height="200px">
+          <img src="./images/mc2.jpg" alt="" width="200px" height="200px">
+          <img src="./images/mc3.jpg" alt="" width="200px" height="200px">
+          <p> <a href="">MainCourse</a></p>
+          
+
+        </div>
+        <div class="me3">
+          <p><a href=""> Desert</a></p>
+          <img src="./images/des.jpg" alt="" width="200px" height="200px" >
+          <img src="./images/des1.jpg" alt="" width="200px" height="200px">
+          <img src="./images/des2.jpg" alt="" width="200px" height="200px" >
+          <img src="./images/des3.jpg" alt="" width="200px" height="200px" >
+        </div>
+        <div class="me4">
+          <img src="./images/mock.jpg" alt="" width="200px" height="200px">
+          <img src="./images/moctail.jpg" alt="" width="200px" height="200px">
+          <img src="./images/dr.jpg" alt="" width="200px" height="200px">
+          <p><a href="">Drinks</a></p>
+        </div>
+
+      </div>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <p>Amrit Tulya Catering&copy All rights reserved</p>
+          </div>
+        
+    </footer>
+</div>
+
+
+</body>
